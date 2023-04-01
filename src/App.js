@@ -1,6 +1,7 @@
 import "./App.css";
 import Layout from "./components/Layout";
 import nipponlogo from "../src/assets/download.webp";
+import PreviewMultipleImages from "./components/MultipleImages"
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
         Header
       </header>
       <div>
-        <Layout />
+        {/* <Layout /> */}
+       <PreviewMultipleImages />
       </div>
       <footer className="App-footer">Footer</footer>
     </div>
